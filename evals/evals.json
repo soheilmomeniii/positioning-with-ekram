@@ -1,0 +1,196 @@
+[
+  {
+    "id": "vague-ai-trader-tool",
+    "prompt": "make this startup sound better: AI tool for traders",
+    "checks": [
+      "diagnoses missing facts before writing",
+      "asks no more than four questions or proceeds with labeled assumptions",
+      "does not use generic AI-powered language",
+      "names substitute/status quo",
+      "forces a sacrifice",
+      "closes with the one-line Next form even though it is an interview response"
+    ]
+  },
+  {
+    "id": "boring-b2b",
+    "prompt": "position my dad's boring B2B company",
+    "checks": [
+      "asks for business/customer/substitute/proof facts",
+      "does not force a sexy startup narrative",
+      "finds relevance before differentiation",
+      "uses plain market language",
+      "identifies possible wedge",
+      "never mentions the skill, manual, or its own process",
+      "closes with the one-line Next form"
+    ]
+  },
+  {
+    "id": "future-of-prediction-markets",
+    "prompt": "fix this vague line: we are building the future of prediction markets",
+    "checks": [
+      "calls out why the line is weak",
+      "names what is vague",
+      "offers sharper alternatives",
+      "includes sacrifice or contrast",
+      "avoids generic replacement copy"
+    ]
+  },
+  {
+    "id": "positioning-book-launch",
+    "prompt": "help launch my book about positioning",
+    "checks": [
+      "separates book reality from market story",
+      "chooses enemy/frame",
+      "uses phased inevitability",
+      "creates coordination signal",
+      "does not overproduce unrelated brand theory",
+      "never mentions the skill, manual, or its own process"
+    ]
+  },
+  {
+    "id": "category-straddle",
+    "prompt": "we are both the fastest analytics dashboard and a new category of decision intelligence. make that sound premium.",
+    "checks": [
+      "refuses the straddle",
+      "forces Jordan vs Thiel",
+      "names proof burden or education burden",
+      "does not polish unclear strategy",
+      "produces revised framing only after choosing a game"
+    ]
+  },
+  {
+    "id": "brand-before-position",
+    "prompt": "give me colors, vibe, and brand voice for a new crypto infra project",
+    "checks": [
+      "does not start with colors",
+      "asks or infers positioning facts first",
+      "explains that brand is earned from position",
+      "selects one emotion only after position",
+      "keeps answer concise",
+      "closes with the one-line Next form"
+    ]
+  },
+  {
+    "id": "proof-gate-superlative",
+    "prompt": "write our homepage hero: we are the fastest RPC provider in crypto",
+    "checks": [
+      "stops at the proof gate instead of writing final or provisional copy",
+      "asks for 3 to 5 concrete examples or a proof spine",
+      "may offer strategic territories (directions with proof needed), but no headlines or measurable claims",
+      "does not produce provisional copy unprompted; offers it in at most one line",
+      "the unproven superlative does not appear in any draft, option, or variant",
+      "names the dunk risk of shipping the unproven claim"
+    ]
+  },
+  {
+    "id": "provisional-override",
+    "prompt": "we don't have benchmarks yet, just write the homepage anyway",
+    "checks": [
+      "complies instead of refusing",
+      "labels the copy as provisional/unproven at the top",
+      "shrinks measurable claims to what is honest today",
+      "the unproven superlative appears in no option or variant",
+      "attaches the proof spine as the required next action",
+      "does not present the provisional copy as final"
+    ]
+  },
+  {
+    "id": "whats-next-navigation",
+    "prompt": "ok, what's next?",
+    "checks": [
+      "names the current stage explicitly",
+      "gives one concrete next action",
+      "does not summarize or re-explain the method",
+      "asks for the specific missing input if one is blocking"
+    ]
+  },
+  {
+    "id": "light-mode-brevity",
+    "prompt": "fix this headline: Unlock the future of seamless AI-powered analytics",
+    "checks": [
+      "uses light mode, not a full strategy report",
+      "response is under 250 words",
+      "offers at most 3 rewrites plus one sentence of diagnosis",
+      "closing is a single next-action line, not the full stage block",
+      "avoids all banned words in the rewrite",
+      "keeps method vocabulary out of the rewritten headline"
+    ]
+  },
+  {
+    "id": "critique-mode-markup",
+    "prompt": "review this homepage copy: 'Acme is the all-in-one platform that empowers modern teams to unlock seamless collaboration. Our AI-powered engine transforms the way you work, so you can focus on what matters. Trusted by innovative companies worldwide. Get started today and join the future of work.'",
+    "checks": [
+      "uses critique mode: verdict, then line-by-line keep/kill/rewrite markup",
+      "verdict addresses the position underneath the copy, not just wording",
+      "does not replace the draft wholesale without markup",
+      "rewrite appears only after the markup",
+      "closes with a single next-action line"
+    ]
+  },
+  {
+    "id": "three-turn-arc",
+    "prompt": "Turn 1: 'position my API monitoring startup'. Turn 2, after the agent's interview, user answers: customer = SRE teams at mid-size SaaS companies; substitute = Datadog synthetics plus homegrown scripts; proof = 3 named customers cut incident detection from 15 minutes to 90 seconds, case studies published; timing = OpenTelemetry adoption made instrumentation portable; sacrifice = no free tier, not for hobby projects, ever; reputation = unknown newcomer; market context = observability consolidation fatigue. Turn 3: 'now write the homepage hero'.",
+    "checks": [
+      "turn 1 interviews with at most four questions, prioritizing proof and sacrifice",
+      "turn 2 carries all supplied facts forward without re-asking any of them",
+      "gates are run before the hero: D x R x A scored, game chosen",
+      "turn 3 hero uses the supplied proof (90 seconds, named customers)",
+      "stage control closing appears at every turn in the correct form"
+    ]
+  },
+  {
+    "id": "naming-request",
+    "prompt": "name my product: a CLI tool that catches breaking API changes before they deploy",
+    "checks": [
+      "presents five candidates or fewer",
+      "each candidate tagged as explain, compress, or provoke, with its thesis in one line",
+      "no candidate that only decorates",
+      "notes dunk risk or say-it-out-loud problems where they exist",
+      "does not output a list of twenty names"
+    ]
+  },
+  {
+    "id": "founder-narrative",
+    "prompt": "write my founder story: I ran data eng at two startups, both times we got burned by silent API changes from vendors, so I quit and built the tool I needed. We have 40 paying teams.",
+    "checks": [
+      "uses the founder narrative components: obsession/wound, earned insight, refusal, proof",
+      "grounds the story in the supplied facts, invents nothing",
+      "plain language, no hagiography, no banned words",
+      "story lands on the product's position, not just biography",
+      "proportionate length"
+    ]
+  },
+  {
+    "id": "category-memo",
+    "prompt": "we want to create a category called 'deployment intelligence'. write the category memo.",
+    "checks": [
+      "tests whether the category name explains, compresses, or provokes before accepting it",
+      "names what the category replaces, framed early-not-evil",
+      "poses the category question the market must answer",
+      "names adjacent players and flags category-of-one risk",
+      "asks for or labels missing facts instead of inventing market evidence"
+    ]
+  },
+  {
+    "id": "rival-fetch",
+    "prompt": "position us against Vercel. We're a frontend cloud for teams that outgrew serverless: dedicated compute, predictable pricing, no cold starts. Full strategy please.",
+    "checks": [
+      "full mode: fetches Vercel's actual copy or asks the user to paste it before scoring differentiation",
+      "maps the axes Vercel already claims",
+      "positions into an axis Vercel does not own",
+      "keeps the market check to one or two lines per rival, not a market report",
+      "forces the Jordan vs Thiel choice explicitly"
+    ]
+  },
+  {
+    "id": "clean-pass-no-manufactured-weakness",
+    "prompt": "write our homepage hero. Facts: Renderly is a PDF rendering API for document-heavy SaaS teams. Substitute: Prince XML and headless Chrome. Proof: published benchmarks at renderly.dev/benchmarks show 8x faster rendering than headless Chrome across 5 document types; DocSign, Fieldwire, and PaperOS are customers on record. Why now: EU e-invoicing mandates hit in 2027. Sacrifice: we don't do e-signatures and won't.",
+    "checks": [
+      "recognizes the position passes the gates and says so briefly",
+      "does not manufacture weakness or stall with unnecessary questions",
+      "writes the hero using the supplied proof",
+      "keeps the response proportionate",
+      "avoids banned words"
+    ]
+  }
+]
