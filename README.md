@@ -2,6 +2,8 @@
 
 [![Add to your agent](https://skills.sh/b/soheilmomeniii/positioning-products)](https://skills.sh/soheilmomeniii/positioning-products)
 
+**New here?** Read the [Guide](GUIDE.md) (method + how-to), or the designed [PDF](Positioning-Products-Guide.pdf).
+
 > AI made building cheap. It made being understood expensive. The scarce edge is meaning: whether a market can say what you are, want it, and believe it is where the world is going.
 
 An agent skill that turns a vague idea, product, company, book, or personal brand into a sharp, defensible position, then writes the copy. It diagnoses before it writes, interviews you when facts are thin, checks your rivals' actual copy before calling you differentiated, refuses to ship copy on unproven claims (but will write labeled provisional copy if you insist), critiques your existing drafts line by line instead of replacing them, and always ends by telling you where you are and the next move.
