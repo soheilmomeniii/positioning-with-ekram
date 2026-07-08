@@ -1,6 +1,6 @@
 ---
 name: positioning-products
-description: Makes a company, product, book, or personal brand legible, desirable, and inevitable, then writes the copy to match. Diagnoses before it writes, pressure-tests you against rivals' real copy, won't ship claims you can't prove, and always ends with your next move. Use for positioning, category strategy, naming, homepage and launch copy, founder narrative, or a line-by-line critique of existing copy.
+description: A positioning operator for builders who can ship the thing but still need the market to understand why it matters. Diagnoses the customer, substitute, proof, timing, and sacrifice before writing copy, pressure-tests you against rivals' real copy, won't ship claims you can't prove, and always ends with your next move. Use for positioning, category strategy, naming, homepage and launch copy, founder narrative, or a line-by-line critique of existing copy.
 ---
 
 # Positioning Products
