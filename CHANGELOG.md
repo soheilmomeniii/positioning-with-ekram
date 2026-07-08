@@ -13,7 +13,7 @@ From an external 5-agent audit (4 critical, 3 high, 5 medium findings, all addre
 - **Vocabulary split**: always-jargon vs normal-English-unless-used-as-method-label, with a swap test.
 - **Multi-gate blocker priority**: name all weak terms; fix Authentic, then Differentiated, then Relevant.
 - **Verification checklist extended**: claim-proof alignment, ban-list enforcement, explain/compress/provoke gate on every name and headline, dunk-risk check, market-check confirmation.
-- **5 new evals** (17 total): three-turn interview-to-artifact arc, naming, founder narrative, category memo, rival fetch. Not yet run; see `evals/RESULTS.md`.
+- **5 new evals** (17 total): three-turn interview-to-artifact arc, naming, founder narrative, category memo, rival fetch. Run against live agents: 17/17 passed on substance, with a form caveat (some runs prefixed internal planning) logged in `evals/RESULTS.md`.
 - Example 3 in the case bank replaced to avoid template repetition.
 
 ## v0.6
