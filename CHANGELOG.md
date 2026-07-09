@@ -2,6 +2,39 @@
 
 All notable changes to the **Positioning Products** skill (built on the Ekram Method) are documented here. Newest first.
 
+## v0.8.3
+From eval Run 6 (v0.8.2: 9 pass / 2 partial / 0 fail on the 11 re-run evals; variance loops exposed three residual leaks):
+- **No-invention rule for narrative artifacts**: founder/origin stories are built only from supplied facts; invented color is fabricated proof. Thin stories ask for one real detail instead of writing a fictional one.
+- **Sequence completion under the proof gate**: the gate freezes copy, never the sequence; full-mode runs deliver every remaining stage with labeled assumptions even when proof is deferred.
+- **Navigation close discipline**: "what's next" responses close with the one-line Next form, never the full stage block.
+
+## v0.8.2
+From Somo's independent blind eval run on v0.8 (20 isolated subagents, pass/partial/fail grading: 9 pass, 10 partial, 1 fail; archived in evals/):
+- **Multi-turn arc rule**: staged conversations produce every turn as its own complete response with its own stage control; never collapse the arc into the final artifact.
+- **Launch architecture required**: a launch request must ship the launch architecture (phases with what each proves, coordination signal, dunk-risk check) in the same response; diagnosis alone is a failed launch response.
+- **Naming template hardened**: fixed four-part candidate line (Name. tag. Thesis. Risk.), periods not dashes; adds the risk read both runs found missing.
+- **Category memo template**: six required blocks (name test, what it replaces, category question, adjacent players, category-of-one risk, missing proof); skipping one fails the memo.
+- Grading standard adopted: pass/partial/fail with per-check results and harness notes, logged per run in evals/RESULTS.md.
+
+## v0.8.1
+From eval run 4 (20 evals, strict two-grader protocol; 9 clean / 5 form-issue / 6 fail, failures logged in evals/RESULTS.md):
+- **Deliverable floor**: if supplied facts are enough with labeled assumptions, the artifact ships in the same response; "full strategy" always produces the full sequence; a missing rival paste defers only the Differentiated score; fact-narrating artifacts (founder story) never blocked on sacrifice.
+- **Provisional numbers ban**: no measurable or absolute claim anywhere in provisional copy (headline, subhead, body) unless user-supplied.
+- **Naming tags enforced**: every name candidate tagged exactly explain / compress / provoke plus a one-line thesis; no substitute taxonomies.
+- **Adjacent players named**: Thiel-path category work names 2-3 real adjacent players in the memo itself; deferring is failing.
+- **Ban scope extended**: hard-banned words and em dashes now explicitly banned in the agent's own analysis and narrative framing, lists, and name-candidate lines, not just artifacts.
+
+## v0.8
+From a 10-skill competitive audit (skills.sh top positioning/marketing skills, 2026-07-09). Not yet pushed to GitHub.
+- **Multiple-choice interviews**: every interview question now carries 2-3 numbered candidate answers inferred from context, plus an open option. Candidates must be specific enough to be wrong. All questions in one message.
+- **Three entry modes**: direct request → guided interview; context dump → silent extraction, ask only what's missing; "just guess" → best-guess with labeled assumptions.
+- **Validate In Market (new stage 9)**: signal-ranked testing (outbound reply > sales-call conversion > CTR > social), a quantified bar set before the test (default: beat the incumbent position by 20%+ on the chosen signal), phased rollout for repositioning, honest failure reading (return to the failing gate, not louder copy). "validate" added to the stage list; full-mode next action names the first test, signal, and bar.
+- **Graded critique**: verdict opens with a score out of 10 derived from D x R x A plus legibility; new "Raise it:" line names the two changes that move the score most.
+- **AI-tell ban list**: 10 cadence tells ("let's delve into", "isn't just X, it's Y", ...) banned in artifacts and analysis, plus the thousand-products test.
+- **Workspace context check**: before interviewing in full mode, read any existing position file, product/marketing context file, or pointed-to readme, and strike answered questions.
+- **New `references/quotes.md`**: the method's spine as verbatim sourced Ekram lines (year + URL), read when the user challenges a rule or asks why it holds. No competitor ships sourced receipts.
+- **3 new evals** (20 total): multiple-choice interview flow, validation stage, graded critique. Not yet run against live agents.
+
 ## v0.7
 From an external 5-agent audit (4 critical, 3 high, 5 medium findings, all addressed):
 - **Claim-proof alignment**: examples must prove the claim actually being scored; a mismatch redirects proof collection or triggers honest repositioning.

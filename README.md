@@ -87,16 +87,16 @@ It diagnoses first, pushes back on vague positioning, and closes every answer wi
 ## What's inside
 
 - `SKILL.md`: the operator manual, canonical over references.
-- `references/`: method sequence, artifact playbooks, brand and culture and founder work, narrative and attention and launch, examples, glossary, worksheets. Loaded on demand.
+- `references/`: method sequence, artifact playbooks, brand and culture and founder work, narrative and attention and launch, examples, glossary, worksheets, and a sourced quote bank (the method's spine as verbatim lines with year and link). Loaded on demand.
 - `GUIDE.md` and `Positioning-Products-Guide.pdf`: the method and how to use it.
-- `evals/`: 17 test prompts with pass-checks so you can verify behavior.
+- `evals/`: 20 test prompts with pass-checks so you can verify behavior, plus run logs and an independent blind-run report.
 
 ## Evals
 
-The skill ships with 17 eval prompts and pass-checks in `evals/evals.json`, plus a run log in `evals/RESULTS.md`.
+The skill ships with 20 eval prompts and pass-checks in `evals/evals.json`, plus a run log in `evals/RESULTS.md` and an independent blind-run report archived alongside it.
 
-In the latest run (v0.7, 17 prompts against live agents), all 17 passed their behavior checks on substance: the proof gate held, banned superlatives stayed out of every draft, sacrifice was never invented for the user, and claim-proof alignment surfaced without prompting. One form issue remains: some runs prefixed internal planning before the user-facing answer, partly an artifact of the eval harness. The full log and residual risk are in `evals/RESULTS.md`.
+v0.8 was tested twice, independently: a strict two-grader run and a separate blind run (9 pass, 10 partial, 1 fail). Both found the same thing: the method held, the protocol discipline leaked. The fixes that followed (v0.8.1 through v0.8.3) were re-tested on the 11 non-pass evals: 9 pass, 2 partial, 0 fail, with variance loops on the five least stable behaviors. Three residual leaks found in those loops are fixed in v0.8.3 but have not been re-run as a full suite; the complete history, per-run numbers, and known residual risks are in `evals/RESULTS.md`. This skill's own rule applies to itself: no claim without a receipt, and the receipts are in the log.
 
 ## Version history
 
-Current: v0.7, hardened by an external 5-agent audit (12 fixes) and expanded to 17 evals. See `CHANGELOG.md` for the full history.
+Current: v0.8.3, built from a 10-skill competitive audit and two independent 20-eval runs (multiple-choice intake, market validation stage, graded critique, sourced quote bank, plus discipline fixes). See `CHANGELOG.md` for the full history.
