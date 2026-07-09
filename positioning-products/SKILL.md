@@ -70,6 +70,7 @@ Usage rule: use jargon freely in diagnosis and strategy discussion, but define e
 - Read `references/narrative-attention-launch.md` for narrative, competition, attention, distribution, launches, and crisis.
 - Read `references/examples.md` when the output needs concrete patterns, before/after copy, or case intuition.
 - Read `references/glossary.md` when a steering term needs exact meaning.
+- Read `references/quotes.md` only when the user challenges a rule, asks why it holds, asks for source proof, or asks about the method's origin or lineage; answer with the sourced line, not a paraphrase. Never load it for routine positioning work.
 - Read `references/worksheets.md` when doing a full positioning brief, launch brief, homepage brief, or deep diagnosis.
 
 ## Mode Selection
@@ -103,16 +104,19 @@ Full mode output:
 
 Use critique mode when the user pastes existing copy longer than a single line and wants it reviewed, fixed, or improved. Do not replace their draft wholesale. Mark it up:
 
-1. Verdict: one paragraph on the position underneath the copy, not the wording
+1. Verdict: opens with a score out of 10, then one paragraph on the position underneath the copy, not the wording. Score the position, not the prose: derive it from D x R x A plus legibility, and say in half a sentence what the score rests on
 2. Keep / Kill / Rewrite: go through the draft line by line or block by block, each tagged with a reason of a few words
 3. Rewritten version, only after the markup
-4. One next-action line
+4. Raise it: the two changes that move the score most, in one line
+5. One next-action line
 
 A single pasted headline is light mode, not critique mode.
 
 Tiebreaker when triggers conflict: full mode beats critique mode beats light mode. A length constraint ("keep it short") compresses output within the selected mode; it never downgrades the mode. "Go deeper" escalates to the next mode up, carrying everything already established.
 
 Do not turn every request into a consulting report. Match depth to stakes. In light mode and critique mode, the closing must always be smaller than the artifact.
+
+Multi-turn arcs: when a prompt describes a staged conversation (a two- or three-turn arc, or any simulated exchange), produce every turn as its own complete response, in order, each closing with its own stage control. The turns are the deliverable; never collapse the arc into the final artifact.
 
 ## Interview Rule
 
@@ -128,11 +132,17 @@ Before writing strategy or high-stakes copy, check whether these seven facts are
 
 If two or more are missing, ask up to four sharp questions. Never ask more than four in the first pass. If the user gives partial answers, proceed with labeled assumptions.
 
+Lower the cost of answering. Under each question, offer 2 or 3 numbered candidate answers inferred from everything already known, plus an open option ("or say it in your own words"). Candidates must be specific enough to be wrong: "1. Solo indie hackers shipping their first paid product 2. Data teams at seed-stage startups" teaches something; "1. Businesses 2. Consumers" teaches nothing. All questions go in one message with their options; never drip one question per turn unless the user sets that pace.
+
+Match the entry to how the user arrives. A direct request gets the interview above. A context dump (deck, readme, site copy, a wall of text) gets silent extraction: pull the seven facts from what they gave and ask only about what is still missing. "Just take a guess" or silence after one round gets best-guess: proceed with every assumption labeled, and invite correction in the closing line.
+
 Assumptions can cover facts 1, 2, 4, 6, and 7. They cannot cover proof (3) or sacrifice (5); both require direct input. Proof is governed by the proof gate below, which is stricter than the interview rule and wins when they conflict. Sacrifice must come from the user because a sacrifice you invent for them costs them nothing.
 
 When five or more facts are missing, four questions cannot reach them all. Spend the questions on what cannot be assumed (proof and sacrifice first), assume the rest with labels, and if critical gaps remain after the answers, ask one second round of up to two questions. Never a third round.
 
 An interview response is still a response: close it with the one-line Next form from Stage Control. Never end on a bare list of questions.
+
+Deliverable floor: the interview unblocks the artifact; it never fully replaces it. If the supplied facts are enough to ship the requested artifact with labeled assumptions, ship it in the same response, with any remaining questions above it. A request for a full strategy always produces the full sequence in that response, with labeled assumptions where facts are missing; waiting on a rival's pasted copy defers only the Differentiated score, never the rest of the sequence. Sacrifice input stays mandatory for positions and final positioning copy, but artifacts that narrate facts the user already supplied (a founder story, a fact-based memo) proceed with what was given; ask for missing color inline, not as a blocker. The proof gate freezes copy, never the sequence: even when Authentic or Differentiated is deferred, a full-mode run still delivers every remaining stage (sacrifice, game, fork test, narrative as needed) with labeled assumptions; a strategy that stops at the proof gate is a truncated response, not a gated one.
 
 ## Market Check
 
@@ -219,7 +229,7 @@ Territories before proof: the gate freezes copy, not strategy. While proof is mi
 Provisional path: only when the user explicitly says to write without proof. "Just write it anyway" is that request: honor it in the same response, do not ask for confirmation again. Then do not refuse and do not silently comply. Produce provisional copy under these conditions:
 
 1. Label it at the top: `PROVISIONAL: unproven claim. Do not ship as final.`
-2. Shrink every measurable claim to what is honest today. "Fastest" becomes "built for speed" until benchmarks exist. Do not launder a superlative through softer wording that still implies it.
+2. Shrink every measurable claim to what is honest today. "Fastest" becomes "built for speed" until benchmarks exist. Do not launder a superlative through softer wording that still implies it. No measurable or absolute claim may appear anywhere in provisional copy, headline, subhead, or body, unless the user supplied that number: "sub-second", "zero downtime", "no dropped requests" are measurable claims and they do not sneak into the subhead.
 3. The unproven superlative must not appear in any option, variant, or draft you produce. Not even as "Option A."
 4. Attach the empty proof spine below the copy as the required next action.
 5. Say plainly what one screenshot could do to the unproven version.
@@ -245,6 +255,8 @@ Force one game:
 - Thiel: escape the comparison by creating or owning a category.
 
 The middle is mush. If the answer is "better and completely new," make it choose.
+
+On the Thiel path, a category needs neighbors: name 2 or 3 real adjacent players the category would recruit, by name, in the memo or strategy itself. Deferring the names is not naming them. A category of one is a category of none.
 
 ### 7. Run The Fork Test
 
@@ -278,10 +290,21 @@ Only after the position is sharp, add the layer the task needs:
 - Brand: one earned emotion, performed through behavior
 - Culture: belonging, unwritten rules, identity, cringe test
 - Narrative: old world, new world, enemy, future delta
-- Founder: human symbol, public risk, visible inner circle
+- Founder: human symbol, public risk, visible inner circle. Narrative artifacts (founder story, origin story, about page) are built only from supplied facts. Every event, number, customer behavior, and detail in the story must come from the user or be marked as a labeled assumption outside the story text. Inventing color ("every customer had already been burned once", "the postmortem read the same both times") is fabricating proof; if the story feels thin, ask for one real detail inline instead of writing a fictional one.
 - Attention: create it with rizz or borrow it with bundle and breakaway
-- Launch: phased inevitability, proof sequence, dunk-risk control, coordination signal
+- Launch: phased inevitability, proof sequence, dunk-risk control, coordination signal. A launch request (product, book, fundraise) must produce launch architecture in the same response: the phases with what each one proves, the coordination signal, and the dunk-risk check. Interview questions may sit above it, but diagnosis alone is a failed launch response.
 - Alarm: when the shift is real and no one feels urgency, name the near-term downside of ignoring it and set a deadline close enough to bite; a danger with no clock is only an announcement. Keep it honest: alarm makes a real downside visible, hype inflates a reward that may never arrive. When it is real, frame the choice as a binary so inaction reads as choosing the bad branch.
+
+### 9. Validate In Market
+
+The artifact is not the end of the method. A position is proven by market response, not by internal agreement. When a position or major artifact ships:
+
+- Test where the signal is strongest first: outbound reply rates (strongest), sales-call conversion (strong), landing-page or ad click-through (moderate), social engagement (weakest; applause is not adoption). Recommend the strongest channel the user can actually run.
+- Set the bar before the test, not after. Default: the new position beats the current one by 20 percent or better on the chosen signal before it earns every surface.
+- For an existing company, roll out in phases: outbound and one landing page first, then homepage and deck, then the category narrative. Never bet every surface on an untested position.
+- Read failure honestly. If the position loses the test, the diagnosis was wrong at some gate. Return to that gate; do not fix a losing position with louder copy.
+
+In full mode, when the artifact ships, the stage block's next action names the first market test, its signal, and its bar.
 
 ## Position File
 
@@ -293,6 +316,8 @@ For full-mode work that will span more than one sitting, offer to keep a positio
 - the next action and needed input
 
 Update it whenever a gate is passed or a fact lands. When the user returns and asks what's next, read the position file before answering. Offer once; do not create it uninvited, and do not offer it for light-mode or critique-mode work.
+
+Before the first interview question of any full-mode session, look for context that already exists: a `position-[name].md` from earlier work, a product or marketing context file the workspace keeps (such as `.agents/product-marketing-context.md` or `.claude/product-marketing.md`), or a readme the user points to. Read it and strike every question it already answers. Asking for a fact the workspace already holds wastes the four-question budget.
 
 ## Stage Control
 
@@ -306,7 +331,7 @@ Next: [current stage in two words] -> [one concrete action].
 
 Full mode closes with the stage block:
 
-- Current stage: facts / second existence / four questions / D x R x A / proof gate / sacrifice / game / fork test / narrative / artifact
+- Current stage: facts / second existence / four questions / D x R x A / proof gate / sacrifice / game / fork test / narrative / artifact / validate
 - Status: can advance / cannot advance yet
 - Blocker: the specific fact or term that is missing or weak, or none. If multiple D x R x A terms are weak, name all of them; fix Authentic first, then Differentiated, then Relevant
 - Next action: one concrete instruction
@@ -316,7 +341,7 @@ If a gate is weak or fails, stop at that gate. Do not advance to later stages or
 
 When a gate passes cleanly, say it passes in one line and advance. Do not manufacture weakness to justify the method. An operator who always finds a problem gets ignored like a linter that always warns.
 
-When the user asks "what's next", "is that all", or "now what", do not summarize the method. Name the current stage and move them to the next required step. If a position file exists, read it first.
+When the user asks "what's next", "is that all", or "now what", do not summarize the method. Name the current stage and move them to the next required step. If a position file exists, read it first. A navigation response closes with the one-line Next form, never the full stage block; the stage block belongs to full-mode deliverables only.
 
 ## Output Rules
 
@@ -333,7 +358,7 @@ Prefer:
 - short sentences
 - copy that a real person could repeat
 
-Hard-banned (never appear in any artifact):
+Hard-banned (never in any artifact, and never in your own analysis or narrative framing either; quoting the user's copy to critique it is the only exception):
 
 - revolutionary
 - seamless
@@ -371,9 +396,30 @@ Flagged (allowed only with a stated justification, and only when the literal mea
 
 If a flagged word appears in an artifact, say in one line why it survived. If you cannot justify it in one line, cut it.
 
-No em dashes anywhere, in analysis or artifacts. Use a period, a comma, a colon, or a shorter sentence instead.
+AI tells (never in artifacts or analysis):
 
-Run every name, tagline, and headline through one test: does it explain, compress, provoke, or merely decorate? A name that only decorates is dead weight. Cut dead launch language, starting with "we're excited to announce."
+- "let's delve into"
+- "in today's fast-paced world" / "in today's digital landscape"
+- "that being said"
+- "it's worth noting that"
+- "in the ever-evolving world of"
+- "at its core"
+- "look no further"
+- "welcome to the future of"
+- "whether you're a [X] or a [Y]"
+- "isn't just [X], it's [Y]"
+
+These are cadence tells, not just phrases. The wider test: if a sentence could open a thousand other products' copy unchanged, cut it.
+
+No em dashes anywhere: not in analysis, artifacts, lists, or name-candidate lines. Use a period, a comma, a colon, or a shorter sentence instead.
+
+Run every name, tagline, and headline through one test: does it explain, compress, provoke, or merely decorate? A name that only decorates is dead weight. Cut dead launch language, starting with "we're excited to announce." When the user asks for names, every candidate uses this exact four-part line, separated by periods, never by dashes:
+
+```text
+[Name]. [explain / compress / provoke]. Thesis: [one line]. Risk: [say-it-out-loud read, trademark neighbor, or dunk risk, one line].
+```
+
+Do not substitute your own taxonomy ("thesis name", "descriptive name"), and never present a candidate that only decorates.
 
 Do not over-credit the method. Do not present inherited positioning theory as if one person invented every underlying idea.
 
@@ -401,7 +447,7 @@ Next: [stage] -> [one concrete action].
 
 ```markdown
 ## Verdict
-[One paragraph: the position underneath the copy, and whether it holds.]
+[Score]/10. [One paragraph: the position underneath the copy, whether it holds, and what the score rests on.]
 
 ## Markup
 [Line or block] -> KEEP / KILL / REWRITE: [reason in a few words]
@@ -410,6 +456,7 @@ Next: [stage] -> [one concrete action].
 ## Rewrite
 [The revised draft, only after the markup.]
 
+Raise it: [the two changes that move the score most].
 Next: [stage] -> [one concrete action].
 ```
 
@@ -476,6 +523,30 @@ Next action:
 Needed input:
 ```
 
+### Category Memo
+
+Every category memo contains these six blocks, in order; skipping one is a failed memo:
+
+```markdown
+## Name Test
+[Does the category name explain, compress, or provoke? Verdict in one or two lines.]
+
+## What It Replaces
+[The old way, named plainly, framed as outgrown, not evil.]
+
+## The Category Question
+[The question the market must start asking itself for this category to exist.]
+
+## Adjacent Players
+[2-3 real named players the category recruits. Deferring the names fails the memo.]
+
+## Category-Of-One Risk
+[Why the market might read this as marketing, and what makes it credible instead.]
+
+## Missing Proof
+[What must be true, shown, or shipped before teaching the category publicly.]
+```
+
 ## Verification
 
 Before finalizing, check:
@@ -494,6 +565,9 @@ Before finalizing, check:
 - Could a stranger repeat the position after one read?
 - Is the output only as long as the task requires? In light mode, did you stay under the word cap?
 - Did you close correctly for the mode: one next-action line in light, critique, and interview responses, the stage block in full mode?
+- In critique mode, did the verdict open with a score out of 10, and did you name the two changes that raise it most?
+- Did interview questions carry numbered candidate answers specific enough to be wrong?
+- If a position or major artifact shipped in full mode, did the next action name the first market test, its signal, and its bar?
 - If authenticity was weak, did you stop and ask for proof first, and write provisional copy only on explicit request, with the superlative removed from every variant? If strategy could not wait, did you offer territories instead of copy?
 - If a gate passed cleanly, did you say so in one line instead of manufacturing weakness?
 - Would the right people show up? Judge the result by who it attracts, not by applause.
