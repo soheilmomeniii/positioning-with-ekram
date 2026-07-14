@@ -1,6 +1,6 @@
-# Positioning Products: A Guide
+# Positioning with Ekram: A Guide
 
-This is a working guide to the **Positioning Products** skill and the method underneath it. It covers what the skill does, how to drive it, and the thinking it runs on. Read it once and you will get sharper answers out of it.
+This is a working guide to the **Positioning with Ekram** skill and the method underneath it. It covers what the skill does, how to drive it, and the thinking it runs on. Read it once and you will get sharper answers out of it.
 
 The skill is built on the **Ekram Method**, a positioning and narrative method for technology, credited to Ekram (@ekrahm). This skill is a faithful reconstruction and operating procedure, not an original theory.
 
@@ -21,7 +21,7 @@ It is an operator, not a copy machine. It diagnoses before it writes. It intervi
 Install it once:
 
 ```
-npx skills add soheilmomeniii/positioning-products
+npx skills add soheilmomeniii/positioning-with-ekram
 ```
 
 Then just ask, in plain language. You do not need to know the method or name a mode. Some examples:
